@@ -9,8 +9,8 @@ Repo này hướng dẫn cách setup **Kafka** và **Apache Flink** một cách 
 ## 📂2. Cấu trúc repo
 ```
 Kafka-Flink
-├── 📄 FLINK_tutorial.ipynb # Hướng dẫn kết nối Flink với Kafka, chạy stream processing, test job
-├── 📄 KAFKA_tutorial.ipynb # Hướng dẫn cơ bản Kafka: tạo topic, producer, consumer
+├── 📄 FLINK_tutorial.pdf # Hướng dẫn kết nối Flink với Kafka, chạy stream processing, test job
+├── 📄 KAFKA_tutorial.pdf # Hướng dẫn cơ bản Kafka: tạo topic, producer, consumer
 ├── 📝 README.md
 └── ⚙️ docker-compose.yml # File cấu hình tất cả service: Kafka, Schema Registry, Connect, ksqlDB, Flink
 ```
@@ -33,11 +33,11 @@ docker-compose up -d
 
 2. Test Kafka:
 
-- Tạo topic, gửi và đọc message (xem tutorial KAFKA_tutorial.ipynb)
+- Tạo topic, gửi và đọc message (xem tutorial KAFKA_tutorial.pdf)
 
 3. Test Flink:
 
-- Kết nối Kafka với Flink SQL Client, tạo table đọc topic, chạy query realtime (xem tutorial FLINK_tutorial.ipynb)
+- Kết nối Kafka với Flink SQL Client, tạo table đọc topic, chạy query realtime (xem tutorial FLINK_tutorial.pdf)
 
 ## 📝5. Tham khảo
 [Confluent Repo](https://github.com/confluentinc/cp-all-in-one)
